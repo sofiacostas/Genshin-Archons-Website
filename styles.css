@@ -31,19 +31,19 @@
 
 .subtitle-text {
     position: absolute;
-    top: 30%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
     font-family: 'Amazing Grotesk', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-optical-sizing: auto;
 }
 
 .topnav {
     position: absolute;
-    top: 6%;
-    left: 28%;
+    top: 5%;
+    left: 30%;
     transform: translate(-50%, -50%);
     
 }
@@ -52,9 +52,9 @@ a {
     color: white;
     font-size: 25px;
     font-family: 'Amazing Grotesk', sans-serif;
-    font-weight: 500;
+    font-weight: 550;
     font-optical-sizing: auto;
     padding: 30px;
-    
+    text-decoration: none;
 }
 
