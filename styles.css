@@ -1,0 +1,60 @@
+.container {
+    background-image: url("Background.png");
+    background-color: #cccccc;
+    height: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    height: 100px;
+    top: 5%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+.title-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-weight: 900;
+    font-optical-sizing: auto;
+}
+
+.subtitle-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+}
+
+.topnav {
+    position: absolute;
+    top: 6%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    padding: 30px;
+    
+}
+
