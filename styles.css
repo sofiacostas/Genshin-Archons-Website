@@ -20,7 +20,7 @@
 
 .title-text {
     position: absolute;
-    top: 25%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
@@ -31,7 +31,7 @@
 
 .subtitle-text {
     position: absolute;
-    top: 32%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
@@ -60,8 +60,47 @@ a {
 
 .icons {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 1%;
     transform: translate(0%, -50%);
     padding: 20px;
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-weight: 800;
+    font-optical-sizing: auto;
+}
+
+
+
+footer {
+    color: white;
+    background-color: #000000;
+    margin-top: -1.8%;
+    left: 50%;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    color: white;
+    top: 126%;
+    left: 20%;
+    transform: translate(-11%, -50%);
+    font-size: 20px;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    text-align: center;
+    background-color: #00000059;
 }
