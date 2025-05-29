@@ -1,6 +1,5 @@
 .container {
     background-image: url("Background.png");
-    background-color: #cccccc;
     height: 1500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +7,12 @@
     background-size: cover;
     position: relative;
     color: white;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    font-family: 'Amazing Grotesk', sans-serif;
 }
 
 .logo {
@@ -18,34 +23,11 @@
     transform: translate(-50%, -50%);
 }
 
-.title-text {
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 100px;
-    font-family: 'Amazing Grotesk', sans-serif;
-    font-weight: 900;
-    font-optical-sizing: auto;
-}
-
-.subtitle-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    font-family: 'Amazing Grotesk', sans-serif;
-    font-weight: 600;
-    font-optical-sizing: auto;
-}
-
 .topnav {
     position: absolute;
     top: 5%;
     left: 30%;
     transform: translate(-50%, -50%);
-    
 }
 
 a {
@@ -58,6 +40,26 @@ a {
     text-decoration: none;
 }
 
+.title-text {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: 900;
+    font-optical-sizing: auto;
+}
+
+.subtitle-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 600;
+    font-optical-sizing: auto;
+}
+
 .icons {
     position: absolute;
     top: 50%;
@@ -66,18 +68,53 @@ a {
     padding: 20px;
 }
 
-h2 {
+.intro-title{
     position: absolute;
-    color: white;
     top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
-    font-family: 'Amazing Grotesk', sans-serif;
     font-weight: 800;
-    font-optical-sizing: auto;
 }
 
+.intro-paragraph {
+    position: absolute;
+    top: 126%;
+    left: 20%;
+    transform: translate(-11%, -50%);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #00000059;
+}
+
+
+
+h2 {
+    padding-top: 5%;
+    margin-left: 2%;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 2%;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 2%;
+}
 
 
 footer {
@@ -91,16 +128,3 @@ footer {
     text-align: center;
 }
 
-p {
-    position: absolute;
-    color: white;
-    top: 126%;
-    left: 20%;
-    transform: translate(-11%, -50%);
-    font-size: 20px;
-    font-family: 'Amazing Grotesk', sans-serif;
-    font-weight: 600;
-    font-optical-sizing: auto;
-    text-align: center;
-    background-color: #00000059;
-}
