@@ -38,6 +38,7 @@ a {
     font-optical-sizing: auto;
     padding: 30px;
     text-decoration: none;
+    
 }
 
 .title-text {
@@ -88,8 +89,6 @@ a {
     background-color: #00000059;
 }
 
-
-
 h2 {
     padding-top: 5%;
     margin-left: 2%;
@@ -116,7 +115,6 @@ p {
     margin-left: 2%;
 }
 
-
 footer {
     color: white;
     background-color: #000000;
@@ -128,3 +126,12 @@ footer {
     text-align: center;
 }
 
+.images-container {
+    max-width: 80%;
+    margin: 75px auto;
+    display: flex;
+}
+
+.images-container img {
+    width: 100%;
+}
