@@ -101,18 +101,27 @@ h3 {
     font-size: 30px;
     font-weight: 800;
     margin-left: 2%;
+    margin-top: 3%;
 }
 
 h4 {
     font-size: 20px;
     font-weight: 600;
     margin-left: 2%;
+    text-align: center;
 }
 
 p {
     font-size: 15px;
     font-weight: 600;
     margin-left: 2%;
+}
+
+.text-bg{
+    background-color: #000000;
+    border-radius: 25px;
+    width: 60%;
+    padding: 1%;
 }
 
 footer {
@@ -134,4 +143,27 @@ footer {
 
 .images-container img {
     width: 100%;
+}
+
+.gif {
+    float: right;
+    margin: 3%;
+    transform: translate(-25%,-50%);
+}
+
+.gnoses-img img {
+   width: 6%;
+   float: right;
+   margin: 1%;
+   position: relative;
+   bottom: 50px;
+   left: 20%;
+}
+
+.vessel-img img{
+    width: 15%;
+    float: right;
+    position: relative;
+    right: 11%;
+    bottom: 45px;
 }
