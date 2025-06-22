@@ -1,6 +1,17 @@
-.container {
+.bg-img1 {
     background-image: url("Background.png");
-    height: 1500px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.bg-img2 {
+    background-image: url("background2.jpg");
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
