@@ -13,6 +13,11 @@ body {
     background-color: #222222;
     color: white;
     font-family: 'Amazing Grotesk', sans-serif;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 .logo {
@@ -109,27 +114,21 @@ h4 {
     font-weight: 600;
     margin-left: 2%;
     text-align: center;
+    width: 90%;
 }
 
 p {
     font-size: 15px;
     font-weight: 600;
     margin-left: 2%;
+    width: 70%;
 }
 
-.text-bg{
-    background-color: #000000;
-    border-radius: 25px;
-    width: 60%;
-    padding: 1%;
-}
 
 footer {
     color: white;
     background-color: #000000;
-    margin-top: -1.8%;
     left: 50%;
-    font-family: 'Amazing Grotesk', sans-serif;
     font-size: 25px;
     font-weight: 800;
     text-align: center;
@@ -151,19 +150,25 @@ footer {
     transform: translate(-25%,-50%);
 }
 
-.gnoses-img img {
-   width: 6%;
-   float: right;
-   margin: 1%;
-   position: relative;
-   bottom: 50px;
-   left: 20%;
+.cover {
+    width: 100%;
+    display: flex;
+    margin-left: 2%;
 }
 
-.vessel-img img{
-    width: 15%;
-    float: right;
-    position: relative;
-    right: 11%;
-    bottom: 45px;
+.box {
+    margin-top: -6%;
+}
+
+
+.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1%;
+}
+
+.scroll-container img {
+    width: 20%;
+    padding: 20px;
 }
