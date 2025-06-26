@@ -32,18 +32,16 @@ html {
 }
 
 .logo {
-    position: absolute;
     height: 100px;
-    top: 5%;
+    top: 7%;
     left: 8%;
-    transform: translate(-50%, -50%);
+    transform: translate(15%, 20%);
 }
 
 .topnav {
     position: absolute;
-    top: 5%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    top: 7%;
+    left: 18%;
 }
 
 a {
@@ -59,7 +57,7 @@ a {
 
 .title-text {
     position: absolute;
-    top: 23%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
@@ -69,7 +67,7 @@ a {
 
 .subtitle-text {
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
@@ -79,7 +77,7 @@ a {
 
 .icons {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 1%;
     transform: translate(0%, -50%);
     padding: 20px;
