@@ -181,3 +181,36 @@ footer {
     width: 20%;
     padding: 20px;
 }
+
+.archon-name {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.archon-desc {
+    width: 25%;
+    margin-left: 10%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.archon-character img {
+    float: right;
+    width: 25%;
+    padding-right: 2%;
+    transform: translateY(-5%);
+}
+
+
+section {
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+}
+
+iframe {
+    float: right;
+    width: 25%;
+    padding-right: 5%;
+    transform: translateY(20%);
+}
