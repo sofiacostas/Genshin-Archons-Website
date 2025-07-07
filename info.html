@@ -13,7 +13,7 @@
         <a href="archons.html">Archons</a> 
     </div>
 </head>
-<body>
+<body class="fade-in">
     <h2>Abilities</h2>
     <h4>An Archon's source of power has been attributed to three sources: the first is through presiding
         over their respective region, the second is from their people's faith in them and the third being one the
@@ -87,5 +87,13 @@
 
     <footer><h4>Go to:<a href="https://en.wikipedia.org/wiki/Genshin_Impact">Wikipedia Page</a></h4></footer>
 
+    <script>
+         // Wait for the page to fully load
+        window.onload = function () {
+            document.querySelectorAll(".fade-in").forEach(el => {
+                el.classList.add("visible");
+            });
+        };
+    </script>
 </body>
 </html>

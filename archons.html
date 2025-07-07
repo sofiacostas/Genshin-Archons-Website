@@ -12,8 +12,10 @@
         <a href="info.html">Info</a>
         <a href="archons.html">Archons</a> 
     </div>
+
+    
 </head>
-<body>
+<body class="fade-in">
     <section style="background-color: rgb(144, 170, 137);">
     <div class="archon-character"><img src="Character_Venti_Full_Wish.webp" alt=""></div>
     <h2 class="archon-name">Venti<br>Barbatos</h2>
@@ -81,5 +83,13 @@
 
         <footer><h4>Go to:<a href="https://en.wikipedia.org/wiki/Genshin_Impact">Wikipedia Page</a></h4></footer>
 
+    <script>
+         // Wait for the page to fully load
+        window.onload = function () {
+            document.querySelectorAll(".fade-in").forEach(el => {
+                el.classList.add("visible");
+            });
+        };
+    </script>
 </body>
 </html>

@@ -25,6 +25,7 @@ body {
     color: white;
     font-family: 'Amazing Grotesk', sans-serif;
     height: 100%;
+    animation: load 400ms ease-in; 
 }
 
 html {
@@ -42,6 +43,7 @@ html {
     position: absolute;
     top: 7%;
     left: 18%;
+    animation: load 400ms ease-in; 
 }
 
 a {
@@ -53,6 +55,10 @@ a {
     padding: 30px;
     text-decoration: none;
     
+}
+
+.topnav a:hover {
+    background-color: rgb(121, 106, 255);
 }
 
 .title-text {
@@ -213,4 +219,14 @@ iframe {
     width: 25%;
     padding-right: 5%;
     transform: translateY(20%);
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.visible {
+    opacity: 1;
 }

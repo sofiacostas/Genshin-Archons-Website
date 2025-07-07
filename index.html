@@ -8,7 +8,7 @@
     <title>Genshin Archons</title>
     
 </head>
-<body>
+<body class="fade-in">
     <div class="bg-img1">
         <header>
            <div class="title-text">Seven Archons</div>
@@ -66,6 +66,14 @@
 
     <footer><h4>Go to:<a href="https://en.wikipedia.org/wiki/Genshin_Impact">Wikipedia Page</a></h4></footer>
 
+    <script>
+         // Wait for the page to fully load
+        window.onload = function () {
+            document.querySelectorAll(".fade-in").forEach(el => {
+                el.classList.add("visible");
+            });
+        };
+    </script>
 </body>
 
 </html>
