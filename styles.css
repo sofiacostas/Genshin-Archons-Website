@@ -149,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/*info page*/
 .images-container {
     max-width: 80%;
     margin: 75px auto;
@@ -175,7 +176,6 @@ footer {
     margin-top: -6%;
 }
 
-
 .scroll-container {
     background-color: #333;
     overflow: auto;
@@ -188,6 +188,7 @@ footer {
     padding: 20px;
 }
 
+/*archon page*/
 .archon-name {
     text-align: left;
     margin-left: 10%;
@@ -208,7 +209,6 @@ footer {
     transform: translateY(-5%);
 }
 
-
 section {
     padding-bottom: 1%;
     margin-bottom: 5%;
@@ -221,7 +221,7 @@ iframe {
     transform: translateY(20%);
 }
 
-
+/*fade in*/
 .fade-in {
     opacity: 0;
     transition: opacity 1s ease-in;
