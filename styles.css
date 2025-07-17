@@ -1,5 +1,5 @@
 .bg-img1 {
-    background-image: url("Background.png");
+    background-image: url("IndexImages/Background.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 }
 
 .bg-img2 {
-    background-image: url("background2.jpg");
+    background-image: url("IndexImages/background2.jpg");
     height: 40%;
     background-position: center;
     background-repeat: no-repeat;

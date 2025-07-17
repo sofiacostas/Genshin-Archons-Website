@@ -1,0 +1,154 @@
+.container {
+    background-image: url("Background.png");
+    height: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    font-family: 'Amazing Grotesk', sans-serif;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    height: 100px;
+    top: 5%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-weight: 550;
+    font-optical-sizing: auto;
+    padding: 30px;
+    text-decoration: none;
+
+}
+
+.title-text {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: 900;
+    font-optical-sizing: auto;
+}
+
+.subtitle-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 600;
+    font-optical-sizing: auto;
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(0%, -50%);
+    padding: 20px;
+}
+
+
+
+h2 {
+    position: absolute;
+    color: white;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-weight: 800;
+    font-optical-sizing: auto;
+}
+
+
+
+footer {
+    color: white;
+    background-color: #000000;
+    margin-top: -1.8%;
+    left: 50%;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    color: white;
+    top: 126%;
+    left: 20%;
+    transform: translate(-11%, -50%);
+    font-size: 20px;
+    font-family: 'Amazing Grotesk', sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    text-align: center;
+    background-color: #00000059;
+}
+
+.images-container {
+    max-width: 80%;
+    margin: 75px auto;
+    display: flex;
+}
+
+.images-container img {
+    width: 100%;
+}
+
+.gif {
+    float: right;
+    margin: 3%;
+    transform: translate(-25%,-50%);
+}
+
+.cover {
+    width: 100%;
+    display: flex;
+    margin-left: 2%;
+}
+
+.box {
+    margin-top: -6%;
+}
+
+.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1%;
+}
+
+.scroll-container img {
+    width: 20%;
+    padding: 20px;
+}
